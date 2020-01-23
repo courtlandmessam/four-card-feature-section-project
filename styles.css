@@ -64,7 +64,6 @@ body {background-color: hsl(0, 0%, 98%);}
 
 #boxes-container {
     margin-top: 4rem;
-    display: flex;
 }
 
 #supervisor {
@@ -89,6 +88,11 @@ body {background-color: hsl(0, 0%, 98%);}
     height: 220px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #boxes-container {
+      margin-top: 4rem;
+      display: flex;
   }
 }
 
