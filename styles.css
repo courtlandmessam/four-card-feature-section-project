@@ -1,0 +1,27 @@
+body {background-color: hsl(0, 0%, 98%);}
+
+
+#container {
+    font-family: 'Poppins', sans-serif;
+    font-size: .925rem;
+    text-align: center;
+}
+
+#reliable {
+  margin-top: 5rem;
+  font-weight: lighter;
+  font-size: 1.45rem;
+}
+
+#powered {
+  font-weight: 600;
+  font-size: 1.45rem;
+}
+
+#artificial {
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
