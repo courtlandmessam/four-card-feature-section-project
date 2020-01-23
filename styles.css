@@ -23,5 +23,9 @@ body {background-color: hsl(0, 0%, 98%);}
   margin-right: 13%;
 }
 
+#supervisor {
+  margin-top: 4rem;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
