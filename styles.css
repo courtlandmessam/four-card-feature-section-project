@@ -30,13 +30,15 @@ body {background-color: hsl(0, 0%, 98%);}
 
 .boxes {
     border-radius: 5px;
-    border: solid black 1px;
+    border: solid hsl(0, 0%, 98%) 1px;
     margin-left: 13%;
     margin-right: 13%;
     margin-bottom: 1rem;
     text-align: left;
     padding-top: 1.25rem;
     padding-left: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 
 .titles {
@@ -54,6 +56,19 @@ body {background-color: hsl(0, 0%, 98%);}
 
 #supervisor {
   margin-top: 4rem;
+  border-top: solid hsl(180, 62%, 55%) 5px;
+}
+
+#team-builder {
+  border-top: solid hsl(0, 78%, 62%) 5px;
+}
+
+#karma {
+  border-top: solid hsl(34, 97%, 64%) 5px;
+}
+
+#calculator {
+  border-top: solid hsl(212, 86%, 64%) 5px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
