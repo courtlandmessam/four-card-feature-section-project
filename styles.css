@@ -110,7 +110,8 @@ body {background-color: hsl(0, 0%, 98%);}
     border-top: solid hsl(212, 86%, 64%) 5px;
     grid-column-start: 3;
     margin-top: 7rem;
-    margin-left: 0;
+    margin-left: 0%;
+    margin-right: auto;
     margin-bottom: 7rem;
     grid-row: 1 / span 2;
   }
@@ -125,11 +126,16 @@ body {background-color: hsl(0, 0%, 98%);}
   }
 
   .boxes {
-    width: 20rem;
+    width: 15rem;
   }
 
+}
 
+@media only screen and (min-width: 1000px) {
 
+  .boxes {
+    width: 20rem;
+  }
 
 }
 
