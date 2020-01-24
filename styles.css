@@ -31,9 +31,10 @@ body {background-color: hsl(0, 0%, 98%);}
 .boxes {
     border-radius: 5px;
     border: solid hsl(0, 0%, 98%) 1px;
-    margin-left: 11%;
-    margin-right: 11%;
+    width: 65vmin;
     margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
     padding-top: 1.25rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -82,17 +83,54 @@ body {background-color: hsl(0, 0%, 98%);}
   border-top: solid hsl(212, 86%, 64%) 5px;
 }
 
-@media only screen and (min-width: 600px) {
-  .boxes {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+@media only screen and (min-width: 1000px) {
+  #supervisor {
+    border-top: solid hsl(180, 62%, 55%) 5px;
+    grid-column-start: 1;
+    margin-top: 7rem;
+    margin-right: 0;
+    margin-bottom: 7rem;
+    grid-row: 1 / span 2;;
+
+  }
+
+  #team-builder {
+    border-top: solid hsl(0, 78%, 62%) 5px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  #karma {
+    border-top: solid hsl(34, 97%, 64%) 5px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  #calculator {
+    border-top: solid hsl(212, 86%, 64%) 5px;
+    grid-column-start: 3;
+    margin-top: 7rem;
+    margin-left: 0;
+    margin-bottom: 7rem;
+    grid-row: 1 / span 2;
   }
 
   #boxes-container {
       margin-top: 4rem;
-      display: flex;
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
   }
+
+  .boxes {
+    width: 20rem;
+  }
+
+
+
+
 }
 
 .attribution { font-size: 11px; text-align: center; }
