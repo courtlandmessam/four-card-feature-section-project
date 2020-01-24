@@ -131,7 +131,7 @@ body {background-color: hsl(0, 0%, 98%);}
 
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
 
   .boxes {
     width: 20rem;
