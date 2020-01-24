@@ -1,3 +1,9 @@
+nav {
+  font-size: 1.75rem;
+  margin-left: .5rem;
+  margin-top: .5rem;
+}
+
 body {background-color: hsl(0, 0%, 98%);}
 
 
@@ -8,7 +14,7 @@ body {background-color: hsl(0, 0%, 98%);}
 }
 
 #reliable {
-  margin-top: 5rem;
+  margin-top: 3rem;
   font-weight: lighter;
   font-size: 1.45rem;
   color: #808080;
